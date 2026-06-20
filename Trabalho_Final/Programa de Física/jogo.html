@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo/style2.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+ 
+   
+ 
+</head>
+<body>
+ 
+    <header>
+        <h1>Cinemática</h1>
+        <p style="text-align: center; color: aliceblue; font-size: 20px; font-weight: bold;">Neste site você irá entender como funciona a cinemática, de uma forma Educativa e Divertida!!!</p>
+    </header>
+ 
+    <nav>
+        <a href="pagMain.html">Página Inicial</a>
+        <a href="jogo.html">Jogo Educativo</a>
+    </nav>
+ 
+    <div class="quadrado" style="margin: 70px; padding-bottom: 1px;">
+        <div class="topo-jogo">
+            <h2>Jogo do MRU</h2>
+            <button id="novaMissao">🔄 Nova missão</button>
+        </div>
+
+       
+       
+       
+   
+            <div class="container">
+                <div class="game">
+                    <div class="destino">
+                        <div class="linha"></div>
+                            <img id="xy" src="Imagens/foguete_jogo.png">
+                            <img class="destino1" id="dest" src="Imagens/ChatGPT Image 28 de mai. de 2026, 15_05_43.png">
+                            <div class="descricao">
+                                <h3>Missão Apollo: </h3>
+                                <p>
+                                    Você está abordo da missão Apollo! <br> <br>
+                                    Seja bem-vindo tripulante, seu obejetivo 
+                                    deve ser chegar ao Planeta OSIA, assim você 
+                                    deve calcular o elemento que falta na equação 
+                                    para que o foguete chegue ao destino!! <br><br>
+                                    Boa sorte. E Que a Força esteja com você!!
+                                </p>
+                            </div>
+                    </div>
+                <center><div id="forml">
+                    <h4>Formula</h4>
+                       
+                    <p style="font-weight: bolder;">S<sub>f</sub> = S<sub>0</sub>+ V<sub>0</sub> x T</p>
+                </div></center>
+ 
+                </div>
+            </div>
+ 
+           
+ 
+        <div class="container">
+ 
+            <div class="square">
+                <h2 class="Elemento">Tempo: </h2>
+                <div class="valor" id="tempo"></div>
+            </div>
+ 
+            <div class="square">
+                <h2 class="Elemento">Espaço Inicial: </h2>
+                <div class="valor" id="espacoinicial"></div>
+            </div>
+ 
+            <div class="square" >
+                <h2 class="Elemento">Espaço Final: </h2>
+                <div class="valor" id="espacofinal"></div>
+            </div>
+ 
+            <div class="square">
+                <h2 class="Elemento"> Velocidade: </h2>
+                <div class="valor" id="velocidade"></div>
+            </div>
+            
+
+        </div>
+        <div>
+            <div class="posicao" style="width: 100%; height: 100px; display: flex; justify-content: center; align-items: center; gap: 50px; font-size: 21px;">
+            SUA RESPOSTA:
+            <input type="text" id="entrada" width: 600px; height: 50px;">
+            </div>
+        </div>
+ 
+        <div class="button" style="width: 100%; height: 80px; display: flex; justify-content: center; align-items: center;">
+            <button class="btn" id="start" style="font-size: 17px;">🚀LANÇAR O FOGUETE!!🚀</button>  
+        </div>  
+ 
+ 
+        <center>
+            <div class="square" id="resultado">RESULTADO.....</div>
+        </center>
+        </div>
+
+    <script src="javascript.js" ></script>
+</body>
+</html>
